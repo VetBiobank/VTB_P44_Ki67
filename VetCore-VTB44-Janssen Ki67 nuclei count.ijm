@@ -1,9 +1,11 @@
-/* Macro for counting nuclei and Ki67 on RGB IHC image  - SK/Janina Janssen 2019-04 VTB
-   Settings for 3DHisterch Pathoscanner 20x/20x
-   exported with 3DHistech SlideConverter 1:1 tif, uncompressed jpg --> 0.496µm/Px
-   and converted to png with FIJI with 80% scaling factor --> 0.62µm/Px 
-   SK / VetImaging-VetBiobank / VetCore / Vetmeduni Vienna 2019
-*/
+/* Macro for counting nuclei and Ki67 on RGB IHC image  - SK/Janina Janssen P44 2019-04 VTB
+ * Settings for 3DHisterch Pathoscanner 20x/20x
+ * exported with 3DHistech SlideConverter 1:1 tif, uncompressed jpg --> 0.496µm/Px
+ * and converted to png with FIJI with 80% scaling factor --> 0.62µm/Px 
+ *
+ * SK / VetImaging-VetBiobank / VetCore / Vetmeduni Vienna 2019
+ * This research was supported using resources of the VetCore Facility (VetImaging | VetBioBank) of the University of Veterinary Medicine Vienna
+ */
 
 setForegroundColor(0, 0, 0);
 setBackgroundColor(255, 255, 255);
